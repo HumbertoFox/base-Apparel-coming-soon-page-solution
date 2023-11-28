@@ -1,0 +1,76 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+
+.main {
+    max-width: 1440px;
+    max-height: 800px;
+    display: flex;
+    background: url(../images/bg-pattern-desktop.svg) no-repeat, linear-gradient( 135deg, hsl(0, 0%, 100%), hsl(0, 100%, 98%));;
+    background-size: contain;
+}
+
+.div-info {
+    display: flex;
+    flex-direction: column;
+    font-family: var(--Font-JoseFin);
+    padding-left: 165px;
+}
+
+.div-info .img-logo {
+    width: 160px;
+    margin-top: 65px;
+}
+
+.div-info h1 {
+    width: 450px;
+    font-size: 64px;
+    color: var(--Dark-Grayish-Red);
+    letter-spacing: 17px;
+    line-height: 69px;
+    text-transform: uppercase;
+    margin-top: 134px;
+}
+
+.div-info h1 span {
+    font-weight: 300;
+    color: var(--Desaturated-Red);
+}
+
+.div-info p {
+    font-size: 16px;
+    color: var(--Desaturated-Red);
+    letter-spacing: .091px;
+    line-height: 28px;
+    padding-right: 230px;
+    margin-top: 18px;
+}
+
+.div-info .input-email {
+    width: 446px;
+    height: 56px;
+    font-family: var(--Font-JoseFin);
+    font-size: 18px;
+    font-weight: 700;
+    padding-left: 30px;
+    margin-top: 40px;
+    border-radius: 30px;
+    border: 2px solid hsla(0, 36%, 70%, .5);
+}
+
+.div-info .input-email::placeholder {
+    color: hsla(0, 36%, 70%, .5);
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
