@@ -1,0 +1,56 @@
+@media(max-width: 900px) {
+    .main {
+        max-width: 375px;
+        flex-direction: column;
+    }
+
+    .div-info {
+        padding-left: 0px;
+    }
+
+    .div-info .img-logo {
+        width: 100px;
+        margin-top: 31px;
+        margin-left: 32px;
+    }
+
+    .div-info h1 {
+        width: 100%;
+        text-align: center;
+        font-size: 40px;
+        letter-spacing: 11px;
+        line-height: 42px;
+        margin-top: 346px;
+    }
+
+    .div-info p {
+        text-align: center;
+        font-size: 14px;
+        line-height: 22px;
+        padding: 0 30px;
+        margin-top: 16px;
+    }
+
+    .div-info .div-input {
+        align-self: center;
+        margin-top: 32px;
+        margin-bottom: 150px;
+        margin-right: 0;
+    }
+
+    .div-info .div-input .input-email {
+        width: 311px;
+        height: 49px;
+        font-size: 14px;
+        padding-left: 22px;
+    }
+
+    .div-info .div-input .btn-email {
+        width: 64px;
+    }
+
+    .img-picture {
+        position: absolute;
+        top: 84px;
+    }
+}

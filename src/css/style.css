@@ -10,7 +10,7 @@ body {
     max-width: 1440px;
     max-height: 800px;
     display: flex;
-    background: url(../images/bg-pattern-desktop.svg) no-repeat, linear-gradient( 135deg, hsl(0, 0%, 100%), hsl(0, 100%, 98%));;
+    background: url(../images/bg-pattern-desktop.svg) no-repeat, linear-gradient( 135deg, hsl(0, 0%, 100%), hsl(0, 100%, 98%));
     background-size: contain;
 }
 
@@ -57,25 +57,11 @@ body {
     margin-right: auto;
 }
 
-.div-info .div-input::after {
-    width: 100px;
-    height: 56px;
-    position: absolute;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    right: 0;
-    content: url(../images/icon-arrow.svg);
-    background-image: linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
-    border-radius: 30px;
-    cursor: url(https://github.com/HumbertoFox/repository/assets/126817628/ef5feb7b-75d4-47ee-a596-7be253492ebd), auto;
-}
-
 .div-info .div-input .input-email {
     width: 446px;
     height: 56px;
     font-family: var(--Font-JoseFin);
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 700;
     padding-left: 30px;
     border-radius: 30px;
@@ -86,9 +72,28 @@ body {
     color: hsla(0, 36%, 70%, .5);
 }
 
+.div-info .div-input .btn-email {
+    width: 100px;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    right: 0;
+    background-image: linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
+    cursor: url(https://github.com/HumbertoFox/repository/assets/126817628/ef5feb7b-75d4-47ee-a596-7be253492ebd), auto;
+    border-radius: 30px;
+    box-shadow: 0 20px 20px hsla(0, 36%, 70%, .5);
+}
+
+.div-info .div-input .btn-email:hover {
+    background: hsl(0, 80%, 86%);
+}
+
 .attribution {
     font-size: 11px;
     text-align: center;
+    padding-top: 30px;
 }
 
 .attribution a {
