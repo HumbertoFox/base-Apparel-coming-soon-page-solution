@@ -50,19 +50,39 @@ body {
     margin-top: 18px;
 }
 
-.div-info .input-email {
+.div-info .div-input {
+    display: flex;
+    position: relative;
+    margin-top: 40px;
+    margin-right: auto;
+}
+
+.div-info .div-input::after {
+    width: 100px;
+    height: 56px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    right: 0;
+    content: url(../images/icon-arrow.svg);
+    background-image: linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
+    border-radius: 30px;
+    cursor: url(https://github.com/HumbertoFox/repository/assets/126817628/ef5feb7b-75d4-47ee-a596-7be253492ebd), auto;
+}
+
+.div-info .div-input .input-email {
     width: 446px;
     height: 56px;
     font-family: var(--Font-JoseFin);
     font-size: 18px;
     font-weight: 700;
     padding-left: 30px;
-    margin-top: 40px;
     border-radius: 30px;
     border: 2px solid hsla(0, 36%, 70%, .5);
 }
 
-.div-info .input-email::placeholder {
+.div-info .div-input .input-email::placeholder {
     color: hsla(0, 36%, 70%, .5);
 }
 
