@@ -2,6 +2,7 @@
     .main {
         max-width: 375px;
         flex-direction: column;
+        padding-bottom: 66px;
     }
 
     .div-info {
@@ -31,22 +32,28 @@
         margin-top: 16px;
     }
 
-    .div-info .div-input {
+    .div-input {
         align-self: center;
         margin-top: 32px;
-        margin-bottom: 150px;
         margin-right: 0;
     }
 
-    .div-info .div-input .input-email {
+    .div-input .input-email {
         width: 311px;
         height: 49px;
         font-size: 14px;
         padding-left: 22px;
     }
 
-    .div-info .div-input .btn-email {
+    .div-input .btn-email {
         width: 64px;
+    }
+
+    .div-info .error-message {
+        align-self: flex-start;
+        font-size: 13px;
+        padding: 0 0 0 64px;
+        margin-top: 7px;
     }
 
     .img-picture {

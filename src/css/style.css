@@ -50,14 +50,14 @@ body {
     margin-top: 18px;
 }
 
-.div-info .div-input {
+.div-input {
     display: flex;
     position: relative;
     margin-top: 40px;
     margin-right: auto;
 }
 
-.div-info .div-input .input-email {
+.div-input .input-email {
     width: 446px;
     height: 56px;
     font-family: var(--Font-JoseFin);
@@ -68,11 +68,15 @@ body {
     border: 2px solid hsla(0, 36%, 70%, .5);
 }
 
-.div-info .div-input .input-email::placeholder {
+.div-input .input-email.error {
+    border: 2px solid var(--Soft-Red);
+}
+
+.div-input .input-email::placeholder {
     color: hsla(0, 36%, 70%, .5);
 }
 
-.div-info .div-input .btn-email {
+.div-input .btn-email {
     width: 100px;
     height: 100%;
     position: absolute;
@@ -86,8 +90,17 @@ body {
     box-shadow: 0 20px 20px hsla(0, 36%, 70%, .5);
 }
 
-.div-info .div-input .btn-email:hover {
+.div-input .btn-email:hover {
     background: hsl(0, 80%, 86%);
+}
+
+.div-info .error-message {
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--Soft-Red);
+    letter-spacing: -.1px;
+    padding: 0 0 0 32px;
+    margin-top: 5px;
 }
 
 .attribution {
