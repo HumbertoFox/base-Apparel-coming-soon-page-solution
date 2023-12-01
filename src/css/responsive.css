@@ -1,4 +1,8 @@
 @media(max-width: 900px) {
+    body {
+        justify-content: flex-start;
+    }
+
     .main {
         max-width: 375px;
         flex-direction: column;
