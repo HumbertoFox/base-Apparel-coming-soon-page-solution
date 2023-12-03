@@ -8,11 +8,11 @@ Os desafios do Frontend Mentor ajudam você a melhorar suas habilidades de codif
 
 <div align="center">
 
-![Visualização do design para o desafio de codificação FAQ accordion](./src/images/design/desktop-design.jpg)
+![Visualização do design para o desafio de codificação Base Apparel coming soon page](./src/images/design/desktop-design.jpg)
 
-![Visualização do design para o desafio de codificação FAQ accordion](./src/images/design/active-states.jpg)
+![Visualização do design para o desafio de codificação Base Apparel coming soon page](./src/images/design/active-states.jpg)
 
-![Visualização do design para o desafio de codificação FAQ accordion](./src/images/design/mobile-design.jpg)
+![Visualização do design para o desafio de codificação Base Apparel coming soon page](./src/images/design/mobile-design.jpg)
 
 </div>
 
